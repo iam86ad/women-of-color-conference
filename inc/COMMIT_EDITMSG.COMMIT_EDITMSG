@@ -1,0 +1,51 @@
+
+
+# --------------
+# Please enter the commit message for your changes. Everything below
+# this paragraph is ignored, and an empty message aborts the commit.
+# Just close the window to accept your message.
+diff --git a/women-of-color-conference/inc/extras.php b/women-of-color-conference/inc/extras.php
+index 96dbceb..bf98173 100755
+--- a/women-of-color-conference/inc/extras.php
++++ b/women-of-color-conference/inc/extras.php
+@@ -49,7 +49,40 @@ function speaker_post_type () {
+ }
+ add_action ( 'init', 'speaker_post_type' );
+
++function schedule_post_type () {
++    $labels = array (
++        'name'               => 'schedules',
++        'singular_name'      => 'schedule',
++        'add_new'            => 'Add New',
++        'add_new_item'       => 'Add New schedule item',
++        'edit_item'          => 'Edit schedule item',
++        'new_item'           => 'New schedule item',
++        'all_items'          => 'All schedule items',
++        'view_item'          => 'View schedule',
++        'search_items'       => 'Search schedule items',
++        'not_found'          => 'No schedules found',
++        'not_found_in_trash' => 'No schedules found in Trash',
++        'parent_item_colon'  => '',
++        'menu_name'          => 'schedules'
++     );
+
++        $args = array(
++        'labels'             => $labels,
++        'public'             => true,
++        'publicly_queryable' => true,
++        'show_ui'            => true,
++        'show_in_menu'       => true,
++        'query_var'          => true,
++        'rewrite'            => array( 'slug' => 'book' ),
++        'capability_type'    => 'post',
++        'has_archive'        => true,
++        'hierarchical'       => false,
++        'menu_position'      => null,
++        'supports'           => array( 'title', 'editor', 'author', 'thumbnail', 'excerpt')
++        );
++    register_post_type ( 'schedule', '$args' );
++}
++add_action ( 'init', 'schedule_post_type' );
+
+ function women_of_color_conference_page_menu_args( $args ) {
+    $args['show_home'] = true;
