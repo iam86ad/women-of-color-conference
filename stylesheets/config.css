@@ -19,10 +19,10 @@
 .welcome { -webkit-background-size: cover; background-size: cover; background-repeat: no-repeat; }
 
 /* line 928, ../sass/_mixins.scss */
-.schedule--time-menu, .schedule--time-row { padding-left: 0; margin-left: 0; }
+.schedule--time-menu { padding-left: 0; margin-left: 0; }
 
 /* line 951, ../sass/_mixins.scss */
-.schedule--time-content, .schedule--time-details, .schedule--time-row { list-style: none; }
+.schedule--time-content { list-style: none; }
 
 /*! normalize.css v2.1.3 | MIT License | git.io/normalize */
 /* line 22, ../sass/_normalize.scss */
@@ -405,7 +405,7 @@ pre code { padding: 0; font-size: inherit; color: inherit; white-space: pre-wrap
 .row:after { clear: both; }
 
 /* line 783, ../sass/_mixins.scss */
-.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12, .sect-title, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .sect-title, .col-md-1, .col-md-2, .col-md-3, .four-col, .four-two, .schedule--time, .col-md-4, .col-md-5, .col-md-6, .schedule--col, .col-md-7, .col-md-8, .col-md-9, .schedule--time-details, .col-md-10, .col-md-11, .col-md-12, .sect-title, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .sect-title { position: relative; min-height: 1px; padding-left: 15px; padding-right: 15px; }
+.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12, .sect-title, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .sect-title, .col-md-1, .col-md-2, .col-md-3, .four-col, .four-two, .col-md-4, .col-md-5, .col-md-6, .schedule--col, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .sect-title, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .sect-title { position: relative; min-height: 1px; padding-left: 15px; padding-right: 15px; }
 
 /* line 799, ../sass/_mixins.scss */
 .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11 { float: left; }
@@ -672,13 +672,13 @@ pre code { padding: 0; font-size: inherit; color: inherit; white-space: pre-wrap
 @media (min-width: 992px) { /* line 64, ../sass/_grid.scss */
   .container { width: 970px; }
   /* line 799, ../sass/_mixins.scss */
-  .col-md-1, .col-md-2, .col-md-3, .four-col, .four-two, .schedule--time, .col-md-4, .col-md-5, .col-md-6, .schedule--col, .col-md-7, .col-md-8, .col-md-9, .schedule--time-details, .col-md-10, .col-md-11 { float: left; }
+  .col-md-1, .col-md-2, .col-md-3, .four-col, .four-two, .col-md-4, .col-md-5, .col-md-6, .schedule--col, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11 { float: left; }
   /* line 806, ../sass/_mixins.scss */
   .col-md-1 { width: 8.33333%; }
   /* line 806, ../sass/_mixins.scss */
   .col-md-2 { width: 16.66667%; }
   /* line 806, ../sass/_mixins.scss */
-  .col-md-3, .four-col, .four-two, .schedule--time { width: 25%; }
+  .col-md-3, .four-col, .four-two { width: 25%; }
   /* line 806, ../sass/_mixins.scss */
   .col-md-4 { width: 33.33333%; }
   /* line 806, ../sass/_mixins.scss */
@@ -690,7 +690,7 @@ pre code { padding: 0; font-size: inherit; color: inherit; white-space: pre-wrap
   /* line 806, ../sass/_mixins.scss */
   .col-md-8 { width: 66.66667%; }
   /* line 806, ../sass/_mixins.scss */
-  .col-md-9, .schedule--time-details { width: 75%; }
+  .col-md-9 { width: 75%; }
   /* line 806, ../sass/_mixins.scss */
   .col-md-10 { width: 83.33333%; }
   /* line 806, ../sass/_mixins.scss */
@@ -944,19 +944,19 @@ table td[class*="col-"], table th[class*="col-"] { float: none; display: table-c
 .table-hover > tbody > tr > td.warning:hover, .table-hover > tbody > tr > th.warning:hover, .table-hover > tbody > tr.warning:hover > td, .table-hover > tbody > tr.warning:hover > th { background-color: #faf2cc; }
 
 @media (max-width: 767px) { /* line 183, ../sass/_tables.scss */
-  .table-responsive { width: 100%; margin-bottom: 15px; overflow-y: hidden; overflow-x: scroll; -ms-overflow-style: -ms-autohiding-scrollbar; border: 1px solid #dddddd; -webkit-overflow-scrolling: touch; }
+  .table-responsive, .schedule--time-data { width: 100%; margin-bottom: 15px; overflow-y: hidden; overflow-x: scroll; -ms-overflow-style: -ms-autohiding-scrollbar; border: 1px solid #dddddd; -webkit-overflow-scrolling: touch; }
   /* line 193, ../sass/_tables.scss */
-  .table-responsive > .table { margin-bottom: 0; }
+  .table-responsive > .table, .schedule--time-data > .table { margin-bottom: 0; }
   /* line 202, ../sass/_tables.scss */
-  .table-responsive > .table > thead > tr > th, .table-responsive > .table > thead > tr > td, .table-responsive > .table > tbody > tr > th, .table-responsive > .table > tbody > tr > td, .table-responsive > .table > tfoot > tr > th, .table-responsive > .table > tfoot > tr > td { white-space: nowrap; }
+  .table-responsive > .table > thead > tr > th, .schedule--time-data > .table > thead > tr > th, .table-responsive > .table > thead > tr > td, .schedule--time-data > .table > thead > tr > td, .table-responsive > .table > tbody > tr > th, .schedule--time-data > .table > tbody > tr > th, .table-responsive > .table > tbody > tr > td, .schedule--time-data > .table > tbody > tr > td, .table-responsive > .table > tfoot > tr > th, .schedule--time-data > .table > tfoot > tr > th, .table-responsive > .table > tfoot > tr > td, .schedule--time-data > .table > tfoot > tr > td { white-space: nowrap; }
   /* line 210, ../sass/_tables.scss */
-  .table-responsive > .table-bordered { border: 0; }
+  .table-responsive > .table-bordered, .schedule--time-data > .table-bordered { border: 0; }
   /* line 219, ../sass/_tables.scss */
-  .table-responsive > .table-bordered > thead > tr > th:first-child, .table-responsive > .table-bordered > thead > tr > td:first-child, .table-responsive > .table-bordered > tbody > tr > th:first-child, .table-responsive > .table-bordered > tbody > tr > td:first-child, .table-responsive > .table-bordered > tfoot > tr > th:first-child, .table-responsive > .table-bordered > tfoot > tr > td:first-child { border-left: 0; }
+  .table-responsive > .table-bordered > thead > tr > th:first-child, .schedule--time-data > .table-bordered > thead > tr > th:first-child, .table-responsive > .table-bordered > thead > tr > td:first-child, .schedule--time-data > .table-bordered > thead > tr > td:first-child, .table-responsive > .table-bordered > tbody > tr > th:first-child, .schedule--time-data > .table-bordered > tbody > tr > th:first-child, .table-responsive > .table-bordered > tbody > tr > td:first-child, .schedule--time-data > .table-bordered > tbody > tr > td:first-child, .table-responsive > .table-bordered > tfoot > tr > th:first-child, .schedule--time-data > .table-bordered > tfoot > tr > th:first-child, .table-responsive > .table-bordered > tfoot > tr > td:first-child, .schedule--time-data > .table-bordered > tfoot > tr > td:first-child { border-left: 0; }
   /* line 223, ../sass/_tables.scss */
-  .table-responsive > .table-bordered > thead > tr > th:last-child, .table-responsive > .table-bordered > thead > tr > td:last-child, .table-responsive > .table-bordered > tbody > tr > th:last-child, .table-responsive > .table-bordered > tbody > tr > td:last-child, .table-responsive > .table-bordered > tfoot > tr > th:last-child, .table-responsive > .table-bordered > tfoot > tr > td:last-child { border-right: 0; }
+  .table-responsive > .table-bordered > thead > tr > th:last-child, .schedule--time-data > .table-bordered > thead > tr > th:last-child, .table-responsive > .table-bordered > thead > tr > td:last-child, .schedule--time-data > .table-bordered > thead > tr > td:last-child, .table-responsive > .table-bordered > tbody > tr > th:last-child, .schedule--time-data > .table-bordered > tbody > tr > th:last-child, .table-responsive > .table-bordered > tbody > tr > td:last-child, .schedule--time-data > .table-bordered > tbody > tr > td:last-child, .table-responsive > .table-bordered > tfoot > tr > th:last-child, .schedule--time-data > .table-bordered > tfoot > tr > th:last-child, .table-responsive > .table-bordered > tfoot > tr > td:last-child, .schedule--time-data > .table-bordered > tfoot > tr > td:last-child { border-right: 0; }
   /* line 236, ../sass/_tables.scss */
-  .table-responsive > .table-bordered > tbody > tr:last-child > th, .table-responsive > .table-bordered > tbody > tr:last-child > td, .table-responsive > .table-bordered > tfoot > tr:last-child > th, .table-responsive > .table-bordered > tfoot > tr:last-child > td { border-bottom: 0; } }
+  .table-responsive > .table-bordered > tbody > tr:last-child > th, .schedule--time-data > .table-bordered > tbody > tr:last-child > th, .table-responsive > .table-bordered > tbody > tr:last-child > td, .schedule--time-data > .table-bordered > tbody > tr:last-child > td, .table-responsive > .table-bordered > tfoot > tr:last-child > th, .schedule--time-data > .table-bordered > tfoot > tr:last-child > th, .table-responsive > .table-bordered > tfoot > tr:last-child > td, .schedule--time-data > .table-bordered > tfoot > tr:last-child > td { border-bottom: 0; } }
 /* line 10, ../sass/_forms.scss */
 fieldset { padding: 0; margin: 0; border: 0; }
 
@@ -2625,17 +2625,17 @@ a.list-group-item.active .list-group-item-text, a.list-group-item.active:hover .
 .panel-heading + .list-group .list-group-item:first-child { border-top-width: 0; }
 
 /* line 60, ../sass/_panels.scss */
-.panel > .table, .panel > .table-responsive { margin-bottom: 0; }
+.panel > .table, .panel > .table-responsive, .panel > .schedule--time-data { margin-bottom: 0; }
 /* line 64, ../sass/_panels.scss */
-.panel > .panel-body + .table, .panel > .panel-body + .table-responsive { border-top: 1px solid #dddddd; }
+.panel > .panel-body + .table, .panel > .panel-body + .table-responsive, .panel > .panel-body + .schedule--time-data { border-top: 1px solid #dddddd; }
 /* line 68, ../sass/_panels.scss */
-.panel > .table-bordered, .panel > .table-responsive > .table-bordered { border: 0; }
+.panel > .table-bordered, .panel > .table-responsive > .table-bordered, .panel > .schedule--time-data > .table-bordered { border: 0; }
 /* line 75, ../sass/_panels.scss */
-.panel > .table-bordered > thead > tr > th:first-child, .panel > .table-bordered > thead > tr > td:first-child, .panel > .table-bordered > tbody > tr > th:first-child, .panel > .table-bordered > tbody > tr > td:first-child, .panel > .table-bordered > tfoot > tr > th:first-child, .panel > .table-bordered > tfoot > tr > td:first-child, .panel > .table-responsive > .table-bordered > thead > tr > th:first-child, .panel > .table-responsive > .table-bordered > thead > tr > td:first-child, .panel > .table-responsive > .table-bordered > tbody > tr > th:first-child, .panel > .table-responsive > .table-bordered > tbody > tr > td:first-child, .panel > .table-responsive > .table-bordered > tfoot > tr > th:first-child, .panel > .table-responsive > .table-bordered > tfoot > tr > td:first-child { border-left: 0; }
+.panel > .table-bordered > thead > tr > th:first-child, .panel > .table-bordered > thead > tr > td:first-child, .panel > .table-bordered > tbody > tr > th:first-child, .panel > .table-bordered > tbody > tr > td:first-child, .panel > .table-bordered > tfoot > tr > th:first-child, .panel > .table-bordered > tfoot > tr > td:first-child, .panel > .table-responsive > .table-bordered > thead > tr > th:first-child, .panel > .schedule--time-data > .table-bordered > thead > tr > th:first-child, .panel > .table-responsive > .table-bordered > thead > tr > td:first-child, .panel > .schedule--time-data > .table-bordered > thead > tr > td:first-child, .panel > .table-responsive > .table-bordered > tbody > tr > th:first-child, .panel > .schedule--time-data > .table-bordered > tbody > tr > th:first-child, .panel > .table-responsive > .table-bordered > tbody > tr > td:first-child, .panel > .schedule--time-data > .table-bordered > tbody > tr > td:first-child, .panel > .table-responsive > .table-bordered > tfoot > tr > th:first-child, .panel > .schedule--time-data > .table-bordered > tfoot > tr > th:first-child, .panel > .table-responsive > .table-bordered > tfoot > tr > td:first-child, .panel > .schedule--time-data > .table-bordered > tfoot > tr > td:first-child { border-left: 0; }
 /* line 79, ../sass/_panels.scss */
-.panel > .table-bordered > thead > tr > th:last-child, .panel > .table-bordered > thead > tr > td:last-child, .panel > .table-bordered > tbody > tr > th:last-child, .panel > .table-bordered > tbody > tr > td:last-child, .panel > .table-bordered > tfoot > tr > th:last-child, .panel > .table-bordered > tfoot > tr > td:last-child, .panel > .table-responsive > .table-bordered > thead > tr > th:last-child, .panel > .table-responsive > .table-bordered > thead > tr > td:last-child, .panel > .table-responsive > .table-bordered > tbody > tr > th:last-child, .panel > .table-responsive > .table-bordered > tbody > tr > td:last-child, .panel > .table-responsive > .table-bordered > tfoot > tr > th:last-child, .panel > .table-responsive > .table-bordered > tfoot > tr > td:last-child { border-right: 0; }
+.panel > .table-bordered > thead > tr > th:last-child, .panel > .table-bordered > thead > tr > td:last-child, .panel > .table-bordered > tbody > tr > th:last-child, .panel > .table-bordered > tbody > tr > td:last-child, .panel > .table-bordered > tfoot > tr > th:last-child, .panel > .table-bordered > tfoot > tr > td:last-child, .panel > .table-responsive > .table-bordered > thead > tr > th:last-child, .panel > .schedule--time-data > .table-bordered > thead > tr > th:last-child, .panel > .table-responsive > .table-bordered > thead > tr > td:last-child, .panel > .schedule--time-data > .table-bordered > thead > tr > td:last-child, .panel > .table-responsive > .table-bordered > tbody > tr > th:last-child, .panel > .schedule--time-data > .table-bordered > tbody > tr > th:last-child, .panel > .table-responsive > .table-bordered > tbody > tr > td:last-child, .panel > .schedule--time-data > .table-bordered > tbody > tr > td:last-child, .panel > .table-responsive > .table-bordered > tfoot > tr > th:last-child, .panel > .schedule--time-data > .table-bordered > tfoot > tr > th:last-child, .panel > .table-responsive > .table-bordered > tfoot > tr > td:last-child, .panel > .schedule--time-data > .table-bordered > tfoot > tr > td:last-child { border-right: 0; }
 /* line 84, ../sass/_panels.scss */
-.panel > .table-bordered > thead > tr:last-child > th, .panel > .table-bordered > thead > tr:last-child > td, .panel > .table-bordered > tbody > tr:last-child > th, .panel > .table-bordered > tbody > tr:last-child > td, .panel > .table-bordered > tfoot > tr:last-child > th, .panel > .table-bordered > tfoot > tr:last-child > td, .panel > .table-responsive > .table-bordered > thead > tr:last-child > th, .panel > .table-responsive > .table-bordered > thead > tr:last-child > td, .panel > .table-responsive > .table-bordered > tbody > tr:last-child > th, .panel > .table-responsive > .table-bordered > tbody > tr:last-child > td, .panel > .table-responsive > .table-bordered > tfoot > tr:last-child > th, .panel > .table-responsive > .table-bordered > tfoot > tr:last-child > td { border-bottom: 0; }
+.panel > .table-bordered > thead > tr:last-child > th, .panel > .table-bordered > thead > tr:last-child > td, .panel > .table-bordered > tbody > tr:last-child > th, .panel > .table-bordered > tbody > tr:last-child > td, .panel > .table-bordered > tfoot > tr:last-child > th, .panel > .table-bordered > tfoot > tr:last-child > td, .panel > .table-responsive > .table-bordered > thead > tr:last-child > th, .panel > .schedule--time-data > .table-bordered > thead > tr:last-child > th, .panel > .table-responsive > .table-bordered > thead > tr:last-child > td, .panel > .schedule--time-data > .table-bordered > thead > tr:last-child > td, .panel > .table-responsive > .table-bordered > tbody > tr:last-child > th, .panel > .schedule--time-data > .table-bordered > tbody > tr:last-child > th, .panel > .table-responsive > .table-bordered > tbody > tr:last-child > td, .panel > .schedule--time-data > .table-bordered > tbody > tr:last-child > td, .panel > .table-responsive > .table-bordered > tfoot > tr:last-child > th, .panel > .schedule--time-data > .table-bordered > tfoot > tr:last-child > th, .panel > .table-responsive > .table-bordered > tfoot > tr:last-child > td, .panel > .schedule--time-data > .table-bordered > tfoot > tr:last-child > td { border-bottom: 0; }
 
 /* line 94, ../sass/_panels.scss */
 .panel-heading { padding: 10px 15px; border-bottom: 1px solid transparent; border-top-right-radius: 3px; border-top-left-radius: 3px; }
@@ -2989,9 +2989,9 @@ button.close { padding: 0; cursor: pointer; background: transparent; border: 0; 
   /* line 228, ../sass/_carousel.scss */
   .carousel-indicators { bottom: 20px; } }
 /* line 21, ../sass/_mixins.scss */
-.clearfix:before, .row:before, .schedule--time-row:before, .clearfix:after, .row:after, .schedule--time-row:after { content: " "; /* 1 */ display: table; /* 2 */ }
+.clearfix:before, .row:before, .clearfix:after, .row:after { content: " "; /* 1 */ display: table; /* 2 */ }
 /* line 25, ../sass/_mixins.scss */
-.clearfix:after, .row:after, .schedule--time-row:after { clear: both; }
+.clearfix:after, .row:after { clear: both; }
 
 /* line 12, ../sass/_utilities.scss */
 .center-block { display: block; margin-left: auto; margin-right: auto; }
@@ -3341,11 +3341,18 @@ th.visible-print, td.visible-print { display: none !important; }
 /* line 74, ../sass/_layout.scss */
 .page-zone--a { background-color: #eeeeee; }
 
-/* line 100, ../sass/_layout.scss */
+/* line 82, ../sass/_layout.scss */
+.schedule--time { width: 20%; }
+
+/* line 98, ../sass/_layout.scss */
 .schedule--time-pane { min-height: 400px; }
 
-/* line 105, ../sass/_layout.scss */
-.schedule--time-details { margin-bottom: 0; }
+/* line 104, ../sass/_layout.scss */
+.schedule--time-details dl, .schedule--time-details dd { margin: 0; }
 
-/* line 111, ../sass/_layout.scss */
-.schedule--time-row { padding-top: 20px; position: relative; }
+/* line 109, ../sass/_layout.scss */
+.schedule--time-data { padding-top: 20px; position: relative; }
+/* line 114, ../sass/_layout.scss */
+.schedule--time-data tr { border-bottom: 1px solid #eee; vertical-align: middle; }
+/* line 119, ../sass/_layout.scss */
+.schedule--time-data td { vertical-align: middle; }

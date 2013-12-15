@@ -80,7 +80,7 @@
 }
 
 .schedule--time {
-    @extend .col-md-3;
+    width: 20%;
 }
 
 .schedule--time-menu {
@@ -89,11 +89,9 @@
     @extend %list-no-left;
 }
 
-.schedule--time-content {
-    @extend .tab-content;
-}
 
 .schedule--time-content {
+    @extend .tab-content;
     @extend %clean-bullets;
 }
 
@@ -103,16 +101,23 @@
 }
 
 .schedule--time-details {
-    @extend .col-md-9;
-    @extend %clean-bullets;
-    margin-bottom: 0;
+    dl, dd {
+        margin: 0;
+    }
 }
 
-.schedule--time-row {
-    @extend .clearfix;
-    @extend %list-no-left;
-    @extend %clean-bullets;
+.schedule--time-data {
+    @extend .table-responsive;
     padding-top: 20px;
     position: relative;
+
+    tr {
+        border-bottom: 1px solid #eee;
+        vertical-align: middle;
+    }
+
+    td {
+        vertical-align: middle;
+    }
 }
 
