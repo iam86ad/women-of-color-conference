@@ -929,3 +929,25 @@ $cols-lg-offset: comma-list();
     padding-left: 0;
     margin-left: 0;
 }
+
+%table-cell {
+    display: table-cell;
+}
+
+%table-col {
+    display: table-column;
+}
+
+%table {
+    display: table;
+    width: 100%;
+}
+
+%table-row {
+    display: table-row;
+    width: 100%;
+}
+
+%clean-bullets {
+    list-style: none;
+}

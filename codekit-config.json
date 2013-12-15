@@ -37,17 +37,14 @@
       "initialSize" : 238,
       "fileType" : 8192
     },
-    "\/sass\/_responsive-utilities.scss" : {
+    "\/sidebar.php" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/sass\/_responsive-utilities.scss",
-      "outputStyle" : 2,
-      "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/stylesheets\/_responsive-utilities.css",
-      "fileType" : 4,
-      "debugStyle" : 1
+      "inputAbbreviatedPath" : "\/sidebar.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/sass\/screen.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -61,14 +58,17 @@
       "fileType" : 4,
       "debugStyle" : 1
     },
-    "\/sidebar.php" : {
+    "\/sass\/_responsive-utilities.scss" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/sidebar.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "inputAbbreviatedPath" : "\/sass\/_responsive-utilities.scss",
+      "outputStyle" : 2,
+      "shouldRunBless" : 1,
+      "outputAbbreviatedPath" : "\/stylesheets\/_responsive-utilities.css",
+      "fileType" : 4,
+      "debugStyle" : 1
     },
     "\/js\/sass-bootstrap.js" : {
       "ignoreWasSetByUser" : 0,
@@ -220,6 +220,18 @@
       "outputAbbreviatedPath" : "\/js\/carousel-ck.js",
       "fileType" : 64
     },
+    "\/sass\/_jumbotron.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/sass\/_jumbotron.scss",
+      "outputStyle" : 2,
+      "shouldRunBless" : 1,
+      "outputAbbreviatedPath" : "\/stylesheets\/_jumbotron.css",
+      "fileType" : 4,
+      "debugStyle" : 1
+    },
     "\/rtl.css" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -238,18 +250,6 @@
       "outputStyle" : 2,
       "shouldRunBless" : 1,
       "outputAbbreviatedPath" : "\/stylesheets\/_buttons.css",
-      "fileType" : 4,
-      "debugStyle" : 1
-    },
-    "\/sass\/_jumbotron.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/sass\/_jumbotron.scss",
-      "outputStyle" : 2,
-      "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/stylesheets\/_jumbotron.css",
       "fileType" : 4,
       "debugStyle" : 1
     },
@@ -312,15 +312,35 @@
       "fileType" : 4,
       "debugStyle" : 1
     },
-    "\/sass\/_variables.scss" : {
+    "\/js\/scrollspy.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/scrollspy.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/scrollspy-ck.js",
+      "fileType" : 64
+    },
+    "\/search.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/search.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/sass\/_media.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/sass\/_variables.scss",
+      "inputAbbreviatedPath" : "\/sass\/_media.scss",
       "outputStyle" : 2,
       "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/stylesheets\/_variables.css",
+      "outputAbbreviatedPath" : "\/stylesheets\/_media.css",
       "fileType" : 4,
       "debugStyle" : 1
     },
@@ -333,35 +353,15 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/search.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/search.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/js\/scrollspy.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/scrollspy.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/js\/scrollspy-ck.js",
-      "fileType" : 64
-    },
-    "\/sass\/_media.scss" : {
+    "\/sass\/_variables.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/sass\/_media.scss",
+      "inputAbbreviatedPath" : "\/sass\/_variables.scss",
       "outputStyle" : 2,
       "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/stylesheets\/_media.css",
+      "outputAbbreviatedPath" : "\/stylesheets\/_variables.css",
       "fileType" : 4,
       "debugStyle" : 1
     },
@@ -481,15 +481,6 @@
       "outputAbbreviatedPath" : "\/js\/affix-ck.js",
       "fileType" : 64
     },
-    "\/inc\/template-tags.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/inc\/template-tags.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/js\/transition.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -500,6 +491,15 @@
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/js\/transition-ck.js",
       "fileType" : 64
+    },
+    "\/inc\/template-tags.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/inc\/template-tags.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/sass\/_navbar.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -545,17 +545,6 @@
       "outputAbbreviatedPath" : "\/js\/wocc-ck.js",
       "fileType" : 64
     },
-    "\/js\/skip-link-focus-fix.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/skip-link-focus-fix.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/js\/skip-link-focus-fix-ck.js",
-      "fileType" : 64
-    },
     "\/sass\/_tooltip.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -567,6 +556,15 @@
       "outputAbbreviatedPath" : "\/stylesheets\/_tooltip.css",
       "fileType" : 4,
       "debugStyle" : 1
+    },
+    "\/inc\/content\/conference-details.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/inc\/content\/conference-details.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/sass\/_mixins.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -580,14 +578,16 @@
       "fileType" : 4,
       "debugStyle" : 1
     },
-    "\/inc\/content\/conference-details.php" : {
+    "\/js\/skip-link-focus-fix.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/inc\/content\/conference-details.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "inputAbbreviatedPath" : "\/js\/skip-link-focus-fix.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/skip-link-focus-fix-ck.js",
+      "fileType" : 64
     },
     "\/sass\/_dropdowns.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -613,6 +613,15 @@
       "fileType" : 4,
       "debugStyle" : 1
     },
+    "\/content-page.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/content-page.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/js\/popover.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -623,15 +632,6 @@
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/js\/popover-ck.js",
       "fileType" : 64
-    },
-    "\/content-page.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/content-page.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
     },
     "\/comments.php" : {
       "ignoreWasSetByUser" : 0,
@@ -663,15 +663,15 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/sass\/_component-animations.scss" : {
+    "\/sass\/print.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/sass\/_component-animations.scss",
+      "inputAbbreviatedPath" : "\/sass\/print.scss",
       "outputStyle" : 2,
       "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/stylesheets\/_component-animations.css",
+      "outputAbbreviatedPath" : "\/stylesheets\/print.css",
       "fileType" : 4,
       "debugStyle" : 1
     },
@@ -698,15 +698,15 @@
       "outputAbbreviatedPath" : "\/js\/customizer-ck.js",
       "fileType" : 64
     },
-    "\/sass\/print.scss" : {
+    "\/sass\/_component-animations.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/sass\/print.scss",
+      "inputAbbreviatedPath" : "\/sass\/_component-animations.scss",
       "outputStyle" : 2,
       "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/stylesheets\/print.css",
+      "outputAbbreviatedPath" : "\/stylesheets\/_component-animations.css",
       "fileType" : 4,
       "debugStyle" : 1
     },
@@ -869,12 +869,12 @@
       "outputAbbreviatedPath" : "\/js\/dropdown-ck.js",
       "fileType" : 64
     },
-    "\/layouts\/sidebar-content.css" : {
+    "\/stylesheets\/shame.css" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/layouts\/sidebar-content.css",
+      "inputAbbreviatedPath" : "\/stylesheets\/shame.css",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
@@ -911,6 +911,17 @@
       "fileType" : 4,
       "debugStyle" : 1
     },
+    "\/js\/wocc-ck.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/wocc-ck.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/wocc-ck-ck.js",
+      "fileType" : 64
+    },
     "\/inc\/content\/conference-location.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -940,21 +951,21 @@
       "outputAbbreviatedPath" : "\/js\/sass-bootstrap.min-ck.js",
       "fileType" : 64
     },
-    "\/stylesheets\/shame.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/stylesheets\/shame.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
     "\/stylesheets\/screen.css" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/stylesheets\/screen.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
+    "\/layouts\/sidebar-content.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/layouts\/sidebar-content.css",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
@@ -997,15 +1008,6 @@
       "fileType" : 4,
       "debugStyle" : 1
     },
-    "\/single.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/single.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/sass\/_theme.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -1017,6 +1019,15 @@
       "outputAbbreviatedPath" : "\/stylesheets\/_theme.css",
       "fileType" : 4,
       "debugStyle" : 1
+    },
+    "\/single.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/single.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/js\/tooltip.js" : {
       "ignoreWasSetByUser" : 0,

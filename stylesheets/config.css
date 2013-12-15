@@ -21,6 +21,15 @@
 /* line 928, ../sass/_mixins.scss */
 .schedule--time-menu { padding-left: 0; margin-left: 0; }
 
+/* line 937, ../sass/_mixins.scss */
+.schedule--time-pane, .schedule--time-details { display: table-column; }
+
+/* line 946, ../sass/_mixins.scss */
+.schedule--time-content { display: table-row; width: 100%; }
+
+/* line 951, ../sass/_mixins.scss */
+.schedule--time-content, .schedule--time-details { list-style: none; }
+
 /*! normalize.css v2.1.3 | MIT License | git.io/normalize */
 /* line 22, ../sass/_normalize.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary { display: block; }
@@ -395,14 +404,14 @@ pre code { padding: 0; font-size: inherit; color: inherit; white-space: pre-wrap
 .container:after { clear: both; }
 
 /* line 12, ../sass/_grid.scss */
-.row { margin-left: -15px; margin-right: -15px; }
+.row, .schedule--time-content { margin-left: -15px; margin-right: -15px; }
 /* line 21, ../sass/_mixins.scss */
-.row:before, .row:after { content: " "; /* 1 */ display: table; /* 2 */ }
+.row:before, .schedule--time-content:before, .row:after, .schedule--time-content:after { content: " "; /* 1 */ display: table; /* 2 */ }
 /* line 25, ../sass/_mixins.scss */
-.row:after { clear: both; }
+.row:after, .schedule--time-content:after { clear: both; }
 
 /* line 783, ../sass/_mixins.scss */
-.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12, .sect-title, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .sect-title, .col-md-1, .col-md-2, .col-md-3, .four-col, .four-two, .schedule--time, .col-md-4, .col-md-5, .col-md-6, .schedule--col, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .sect-title, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .sect-title { position: relative; min-height: 1px; padding-left: 15px; padding-right: 15px; }
+.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12, .sect-title, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .sect-title, .col-md-1, .col-md-2, .col-md-3, .four-col, .four-two, .schedule--time, .col-md-4, .col-md-5, .col-md-6, .schedule--col, .col-md-7, .col-md-8, .col-md-9, .schedule--time-details, .col-md-10, .col-md-11, .col-md-12, .sect-title, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .sect-title { position: relative; min-height: 1px; padding-left: 15px; padding-right: 15px; }
 
 /* line 799, ../sass/_mixins.scss */
 .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11 { float: left; }
@@ -669,7 +678,7 @@ pre code { padding: 0; font-size: inherit; color: inherit; white-space: pre-wrap
 @media (min-width: 992px) { /* line 64, ../sass/_grid.scss */
   .container { width: 970px; }
   /* line 799, ../sass/_mixins.scss */
-  .col-md-1, .col-md-2, .col-md-3, .four-col, .four-two, .schedule--time, .col-md-4, .col-md-5, .col-md-6, .schedule--col, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11 { float: left; }
+  .col-md-1, .col-md-2, .col-md-3, .four-col, .four-two, .schedule--time, .col-md-4, .col-md-5, .col-md-6, .schedule--col, .col-md-7, .col-md-8, .col-md-9, .schedule--time-details, .col-md-10, .col-md-11 { float: left; }
   /* line 806, ../sass/_mixins.scss */
   .col-md-1 { width: 8.33333%; }
   /* line 806, ../sass/_mixins.scss */
@@ -687,7 +696,7 @@ pre code { padding: 0; font-size: inherit; color: inherit; white-space: pre-wrap
   /* line 806, ../sass/_mixins.scss */
   .col-md-8 { width: 66.66667%; }
   /* line 806, ../sass/_mixins.scss */
-  .col-md-9 { width: 75%; }
+  .col-md-9, .schedule--time-details { width: 75%; }
   /* line 806, ../sass/_mixins.scss */
   .col-md-10 { width: 83.33333%; }
   /* line 806, ../sass/_mixins.scss */
@@ -2986,9 +2995,9 @@ button.close { padding: 0; cursor: pointer; background: transparent; border: 0; 
   /* line 228, ../sass/_carousel.scss */
   .carousel-indicators { bottom: 20px; } }
 /* line 21, ../sass/_mixins.scss */
-.clearfix:before, .row:before, .clearfix:after, .row:after { content: " "; /* 1 */ display: table; /* 2 */ }
+.clearfix:before, .row:before, .schedule--time-content:before, .clearfix:after, .row:after, .schedule--time-content:after { content: " "; /* 1 */ display: table; /* 2 */ }
 /* line 25, ../sass/_mixins.scss */
-.clearfix:after, .row:after { clear: both; }
+.clearfix:after, .row:after, .schedule--time-content:after { clear: both; }
 
 /* line 12, ../sass/_utilities.scss */
 .center-block { display: block; margin-left: auto; margin-right: auto; }
@@ -3337,3 +3346,9 @@ th.visible-print, td.visible-print { display: none !important; }
 
 /* line 74, ../sass/_layout.scss */
 .page-zone--a { background-color: #eeeeee; }
+
+/* line 102, ../sass/_layout.scss */
+.schedule--time-pane { min-height: 400px; }
+
+/* line 108, ../sass/_layout.scss */
+.schedule--time-details { margin-bottom: 0; }

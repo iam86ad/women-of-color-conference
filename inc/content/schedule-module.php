@@ -13,22 +13,23 @@
                         <li><a href="#wed-pm" data-toggle="tab">PM</a></li>
                     </ul>
                     <div class="schedule--time-content">
-                        <div class="schedule--time-pane active" id="home">
-                            I have tab content
+                        <div class="schedule--time-pane active" id="wed-am">
+                            <ul class="schedule--time-row">
+                                <li class="schedule--time">10am - 11am</li>
+                                <li class="schedule--time-details">
+                                    <dl>
+                                        <dt>Workshop A</dt>
+                                        <dd>
+                                            Nulla sit amet auctor metus, nec condimentum odio. Cras sed lorem in odio fermentum dapibus quis id libero. Nam venenatis est sed.
+                                        </dd>
+                                    </dl>
+                                </li>
+                            </ul>
                         </div>
-                        <div class="schedule--time-pane" id="profile">
+                        <div class="schedule--time-pane" id="wed-pm">
                             I also have tab content
                         </div>
                     </div>
-                <div class="row">
-                    <div class="schedule--time">
-                        <!--  <?php the_field( 'from_time' ); ?> - <?php the_field( 'to_field' ); ?> -->
-                    </div>
-                    <dl class="conf-sched-details col-md-9">
-                        <dt>Registration & Welcome</dt>
-                        <dd>Be sure to arrive early and grab your favourite seat!</dd>
-                    </dl>
-                </div>
             </article>
             <footer class="action-block full-width col-md-12">
                 <a href="#" class="btn btn-primary">Great! Where is it located?</a>
