@@ -103,7 +103,7 @@ function schedule_register() {
         'capability_type' => 'post',
         'hierarchical' => false,
         'menu_position' => null,
-        'supports' => array('title','editor','thumbnail')
+        'supports' => array('title','excerpt','thumbnail')
       );
 
     register_post_type( 'schedule' , $args );

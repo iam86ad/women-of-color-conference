@@ -17,17 +17,39 @@
                 <div class="schedule--time-data">
                     <div id="wed-am" class="schedule--time-pane active">
                         <table class="schedule--time-data">
+                            <?php
+                                $args = array(
+                                    'post_type' => 'schedule',
+                                    'order' => 'ASC',
+                                    'weekday' => 'wednesday',
+                                    'time_of_day' => 'AM'
+                                );
+                                $day1_am = new WP_Query($args);
+
+                                if($day1_am->have_posts()) :
+                                while($day1_am->have_posts()) :
+                                $day1_am->the_post();
+                            ?>
                             <tr>
-                                <td class="schedule--time">10am - 10:15</td>
+                                <td class="schedule--time">
+                                    <?php the_field( 'from_time' ); ?>
+                                    <?php if( get_field( 'to_time' ) ) { ?>
+                                        - <?php the_field( 'to_time' ); ?>
+                                    <?php } ?>
+                                </td>
                                 <td class="schedule--time-datails">
                                     <dl>
-                                        <dt>Title goes here</dt>
+                                        <dt><?php the_title(); ?></dt>
                                         <dd>
-                                            Donec tempor fringilla dui, non egestas magna laoreet porttitor. Maecenas condimentum lectus ac felis tincidunt, a egestas neque massa nunc.
+                                            <?php the_excerpt(); ?>
                                         </dd>
                                     </dl>
                                 </td>
                             </tr>
+                            <?php
+                                endwhile;
+                                endif;
+                            ?>
                         </table>
                     </div>
                 </div>
