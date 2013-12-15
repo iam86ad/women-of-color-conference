@@ -75,4 +75,25 @@
     background-color: $gray-lighter;
 }
 
+.schedule--col {
+    @extend .col-md-6;
+}
+
+.schedule--time {
+    @extend .col-md-3;
+}
+
+.schedule--time-menu {
+    @extend .nav;
+    @extend .nav-tabs;
+    @extend %list-no-left;
+}
+
+.schedule--time-content {
+    @extend .tab-content;
+}
+
+.schedule--time-pane {
+    @extend .tab-pane;
+}
 

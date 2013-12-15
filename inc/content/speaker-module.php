@@ -17,7 +17,7 @@
             ?>
 
             <div class="conf--speaker-wrap four-two">
-                <figure class="conf--speaker">Aq1   `
+                <figure class="conf--speaker">
                     <!-- <img src="http://localhost:8888/wocc/assets/oprah-winfrey.jpg" alt=""> -->
                     <?php the_post_thumbnail( 'wocc_thumbnail' ); ?>
                     <div class="conf--speaker-overlay">

@@ -924,3 +924,8 @@ $cols-lg-offset: comma-list();
     @extend .col-md-12;
     @extend .col-lg-12;
 }
+
+%list-no-left {
+    padding-left: 0;
+    margin-left: 0;
+}
