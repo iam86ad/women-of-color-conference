@@ -94,21 +94,25 @@
 }
 
 .schedule--time-content {
-    @extend .row;
-    @extend %table-row;
     @extend %clean-bullets;
 }
 
 .schedule--time-pane {
     @extend .tab-pane;
-    @extend %table-col;
     min-height: 400px;
 }
 
 .schedule--time-details {
     @extend .col-md-9;
-    @extend %table-col;
     @extend %clean-bullets;
     margin-bottom: 0;
+}
+
+.schedule--time-row {
+    @extend .clearfix;
+    @extend %list-no-left;
+    @extend %clean-bullets;
+    padding-top: 20px;
+    position: relative;
 }
 
